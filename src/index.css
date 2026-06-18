@@ -1,0 +1,84 @@
+/* src/index.css — root reset for TransactValidator theme */
+
+:root {
+  --text: #5a6680;
+  --text-h: #000000;
+  --bg: #FFFDF5;
+  --border: rgba(54, 76, 132, 0.12);
+  --code-bg: rgba(149, 177, 238, 0.1);
+  --accent: #364C84;
+  --accent-bg: rgba(149, 177, 238, 0.1);
+  --accent-border: rgba(149, 177, 238, 0.4);
+  --shadow:
+    rgba(54, 76, 132, 0.08) 0 4px 16px, rgba(0, 0, 0, 0.04) 0 1px 4px;
+
+  --sans: "Inter", system-ui, "Segoe UI", Roboto, sans-serif;
+  --heading: "Inter", system-ui, "Segoe UI", Roboto, sans-serif;
+  --mono: ui-monospace, Consolas, monospace;
+
+  font: 16px/1.6 var(--sans);
+  letter-spacing: 0.01px;
+  color-scheme: light;
+  color: var(--text);
+  background: var(--bg);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  background: #FFFDF5;
+}
+
+#root {
+  width: 100%;
+  max-width: 100%;
+  margin: 0;
+  text-align: left;
+  min-height: 100svh;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+h1,
+h2 {
+  font-family: var(--heading);
+  font-weight: 700;
+  color: var(--text-h);
+}
+
+h1 {
+  font-size: clamp(26px, 3.5vw, 40px);
+  letter-spacing: -0.03em;
+  margin: 0 0 16px;
+}
+
+h2 {
+  font-size: 18px;
+  line-height: 1.25;
+  letter-spacing: -0.02em;
+  margin: 0 0 8px;
+}
+
+p {
+  margin: 0;
+}
+
+code,
+.counter {
+  font-family: var(--mono);
+  display: inline-flex;
+  border-radius: 5px;
+  color: #364C84;
+}
+
+code {
+  font-size: 13px;
+  line-height: 1.4;
+  padding: 3px 7px;
+  background: var(--code-bg);
+  border: 1px solid rgba(149, 177, 238, 0.2);
+}
