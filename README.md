@@ -94,15 +94,6 @@ Example datasets:
 ```
 
 ---
-
-## 📌 Built With
-
-- React
-- Vite
-- JavaScript
-- Papa Parse
-- Groq API
-- Llama
-- JSZip
+built for xeno implementation internship task
 
 ---
