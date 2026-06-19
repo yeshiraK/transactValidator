@@ -52,9 +52,7 @@ A web-based platform for validating and processing transaction datasets. Upload 
 
 ## 🏗 Architecture
 
-<p align="center">
-  <img src="./docs/architecture.png" width="100%">
-</p>
+![Architecture](sample-input/arch.png)
 
 ---
 
